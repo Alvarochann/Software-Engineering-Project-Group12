@@ -2,9 +2,9 @@ import Image from "next/image";
 import Header from "@/components/global_components/header";
 import Footer from "@/components/global_components/footer";
 import Link from "next/link";
-import Main from "@/app/dashboard/main";
+import Main from "@/app/calendar/main";
 
-const Dashboard = () => {
+const Calender = () => {
   return (
     <>
       <Header />
@@ -14,4 +14,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Calender;
